@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Project_Zola</title>
+      <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+      <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto+Mono&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./styles.css"/>    
+  
+  </head>        
+  <body>
+    <div class="container">
+      <div class="hero">
+          <nav>
+              <ul>
+                <img src="assets/img/sol.png" id="icon">
+              </ul>
+          </nav>
+          <img class="avatar" src="https://github.com/Dev02Zola.png" alt="Image do Zola">
+          <h1>Ndongala Zola</h1>
+          <p class="username"><a href="index.html" class="nav__brand">@zola_z10</a><i class="fi fi-rr-rocket-lunch"></i></p>
+
+          <ul>
+              <li>
+                  <a href="https://youtube.com/zola" target="_blank"><i class="fi fi-brands-youtube" style="color: #f80404;"></i>Youtube </a>
+              </li>
+              <li>
+                <a href="pagina2.html" target="_blank"><i class="fi fi-rr-blog-pencil" style="color: #03fa41;"></i>Blog</a>
+            </li>
+              <li>
+                  <a href="https://instagram.com/zola_z10" target="_blank"><i class="fi fi-brands-instagram" style="color: #f704cf;"></i>Instagram</a>
+              </li>
+              <li>
+                  <a href="https://github.com/Dev02Zola" target="_blank"><i class="fi fi-brands-github" style="color: #ffff;"></i>Github</a>
+              </li>
+          </ul>
+          
+                  <p>All Rights Reserved <br>Copyright &copy;</p>
+
+      </div>
+    </div> 
+
+      <script>
+        var icon = document.getElementById("icon");
+
+            icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+              icon.src = "assets/img/sol.png";
+              }else{
+              icon.src = "assets/img/lua.png";
+            }
+          }
+      </script>
+
+  </body>
+</html>
