@@ -1,14 +1,14 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
 
-*{
+  *{
     margin: 1px;
-    padding: 3px;
+    padding: 0;
     box-sizing: border-box;
     color: #f704cf;
   }
  :root{
-    --primary-color: #f1f1f3;
-    --secondary-color: #030303;
+     --secondary-color: #030303;
+     --primary-color: #f1f1f3;
     --bg-color: #031468;
     --text-color: #FFFFFF;
   }
@@ -23,16 +23,19 @@
     text-align: right;
   }
   .hero{
-    background: var(--primary-color);
+    background: var(--secondary-color);
     position: relative;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
   }
   .dark-theme{
-    --primary-color: #000106;
-    --secondary-color: #fff;
+      --secondary-color: #fff;
+      --primary-color: #000106;
   }
 
   a {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-decoration: none;
   }
   /* Desabilitando o scroll da página */
@@ -95,14 +98,15 @@
     background: var(--bg-color); /* hex: numéros que vão de 0 - F*/
     text-transform: uppercase;
     font-size: 14px; 
-    margin-bottom: 8px;
+    margin: 8px;
+    padding: 3px;
     border-radius: 5px;
     transition: background 400ms;
   }
   
   /* pseudo-class */
   ul li a:hover {
-    background: var(--primary-color);
+    background: #414141;
   }
   
   footer {
@@ -122,10 +126,9 @@
 
   p{
     font-size: 11px;
-    color: #6e6c6c;
+    padding-bottom: 6px;
+    color: #5c5c5c;
     text-decoration: none;
     align-items: center;
     justify-content: center;
   }
-
-  
